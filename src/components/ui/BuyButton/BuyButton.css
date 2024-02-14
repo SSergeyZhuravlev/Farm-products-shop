@@ -1,0 +1,22 @@
+.btn {
+    padding: 16.5px 97.5px;
+    background-color: rgb(252, 155, 39);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    transition: background-color .3s ease-in-out;
+}
+
+.btn:focus-visible {
+    background-color: rgb(252, 108, 24);
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgb(252, 116, 39);
+}
+
+.btn:active {
+    background-color: rgb(247, 96, 8);
+}

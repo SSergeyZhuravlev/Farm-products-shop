@@ -1,0 +1,22 @@
+.about {
+    padding: 183px 90px;
+    background-color: rgb(216, 236, 254);
+    background-image: url('/src/assets/images/about-farmer.svg'), url('/src/assets/images/about-elipse.svg');
+    background-repeat: no-repeat;
+    background-position: 80% -60%, 83% 50%;
+}
+
+.about__descr {
+    max-width: 637px;
+}
+
+.about__title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.about__descr__text {
+    font-weight: 400;
+    font-size: 18px;
+}

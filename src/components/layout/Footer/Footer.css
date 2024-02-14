@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 86px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__create {
+    font-weight: 400;
+    font-size: 18px;
+}
