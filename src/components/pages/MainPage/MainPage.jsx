@@ -1,6 +1,6 @@
-import { profits } from '/src/mocks/profits';
-import { About } from '/src/components/blocks/About/About';
-import { FarmProfitList } from '/src/components/blocks/FarmProfitList/FarmProfitList';
+import { profits } from '../../../mocks/profits';
+import { About } from '../../blocks/About/About';
+import { FarmProfitList } from '../../blocks/FarmProfitList/FarmProfitList';
 
 export const MainPage = () => {
     return (

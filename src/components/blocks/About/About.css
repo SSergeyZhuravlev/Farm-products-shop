@@ -1,7 +1,7 @@
 .about {
     padding: 183px 90px;
     background-color: rgb(216, 236, 254);
-    background-image: url('/src/assets/images/about-farmer.svg'), url('/src/assets/images/about-elipse.svg');
+    background-image: url('../../../assets/images/about-farmer.svg'), url('../../../assets/images/about-elipse.svg');
     background-repeat: no-repeat;
     background-position: 80% -60%, 83% 50%;
 }

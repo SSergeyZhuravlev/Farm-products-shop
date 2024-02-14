@@ -1,5 +1,5 @@
-import { Logo } from '/src/components/ui/Logo/Logo';
-import { BuyButton } from '/src/components/ui/BuyButton/BuyButton';
+import { Logo } from '../../ui/Logo/Logo';
+import { BuyButton } from '../../ui/BuyButton/BuyButton';
 import './Header.css';
 
 export const Header = () => {

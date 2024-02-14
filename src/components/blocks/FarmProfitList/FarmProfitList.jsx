@@ -1,6 +1,6 @@
-import { BuyButton } from '/src/components/ui/BuyButton/BuyButton';
-import { FarmProfitCard } from '/src/components/ui/FarmProfitCard/FarmProfitCard';
-import { Title } from '/src/components/ui/Title/Title';
+import { BuyButton } from '../../ui/BuyButton/BuyButton';
+import { FarmProfitCard } from '../../ui/FarmProfitCard/FarmProfitCard';
+import { Title } from '../../ui/Title/Title';
 import './FarmProfitList.css';
 
 export const FarmProfitList = ( { list } ) => {

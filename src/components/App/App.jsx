@@ -1,6 +1,6 @@
-import { Header } from '/src/components/layout/Header/Header';
-import { MainPage } from '/src/components/pages/MainPage/MainPage';
-import { Footer } from '/src/components/layout/Footer/Footer';
+import { Header } from '../layout/Header/Header';
+import { MainPage } from '../pages/MainPage/MainPage';
+import { Footer } from '../layout/Footer/Footer';
 import './App.css';
 
 export const App = () => {
