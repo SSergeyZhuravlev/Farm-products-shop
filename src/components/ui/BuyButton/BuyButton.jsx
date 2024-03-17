@@ -1,5 +1,5 @@
 import './BuyButton.css';
 
-export const BuyButton = () => {
-    return <button className="btn buy-btn">Купить</button>
+export const BuyButton = ( { children, onClick } ) => {
+    return <button className="btn buy-btn" onClick={onClick}>{children}</button>
 }

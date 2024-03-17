@@ -1,4 +1,4 @@
-import { Title } from '../Title/Title';
+import { Title } from '/src/components/ui/Title/Title';
 import './FarmProfitCard.css';
 
 export const FarmProfitCard = ( { productsType, prop, propDescr, src } ) => {

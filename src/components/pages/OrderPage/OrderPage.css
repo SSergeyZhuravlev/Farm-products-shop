@@ -1,0 +1,4 @@
+.order-page__order-block {
+    display: flex;
+    flex-direction: column;
+}

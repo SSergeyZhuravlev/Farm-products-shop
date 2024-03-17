@@ -1,4 +1,4 @@
-import { Title } from '../../ui/Title/Title';
+import { Title } from '/src/components/ui/Title/Title';
 import './About.css';
 
 export const About = () => {

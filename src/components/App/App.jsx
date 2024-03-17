@@ -1,6 +1,7 @@
-import { Header } from '../layout/Header/Header';
-import { MainPage } from '../pages/MainPage/MainPage';
-import { Footer } from '../layout/Footer/Footer';
+import { Header } from '/src/components/layout/Header/Header';
+import { MainPage } from '/src/components/pages/MainPage/MainPage';
+import { OrderPage } from '/src/components/pages/OrderPage/OrderPage';
+import { Footer } from '/src/components/layout/Footer/Footer';
 import './App.css';
 
 export const App = () => {
@@ -8,7 +9,8 @@ export const App = () => {
         <>
             <Header />
             <main>
-                <MainPage />
+                {/* <MainPage /> */}
+                <OrderPage />
             </main>
             <Footer />
         </>

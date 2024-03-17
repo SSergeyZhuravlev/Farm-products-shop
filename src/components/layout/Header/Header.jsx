@@ -1,12 +1,12 @@
-import { Logo } from '../../ui/Logo/Logo';
-import { BuyButton } from '../../ui/BuyButton/BuyButton';
+import { Logo } from '/src/components/ui/Logo/Logo';
+import { BuyButton } from '/src/components/ui/BuyButton/BuyButton';
 import './Header.css';
 
 export const Header = () => {
     return (
         <header className='header'>
             <Logo />
-            <BuyButton />
+            <BuyButton>Купить</BuyButton> 
         </header>
     )
 }
