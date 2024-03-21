@@ -1,0 +1,22 @@
+.order-products {
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.order-products__list__item {
+    width: 100%;
+    max-width: 727px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    transition: background .3s ease-in-out;
+}
+
+.order-products__list__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.order-products__list__item.scrolled {
+    background: rgb(206, 205, 205);
+}

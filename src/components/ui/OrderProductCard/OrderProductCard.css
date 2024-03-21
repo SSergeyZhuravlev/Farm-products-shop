@@ -1,0 +1,15 @@
+.order-page__order-product-card {
+    display: flex;
+}
+
+.order-page__order-product-card__img {
+    margin-right: 20px;
+}
+
+.order-page__order-product-card__title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    color: rgb(51, 51, 51);
+}

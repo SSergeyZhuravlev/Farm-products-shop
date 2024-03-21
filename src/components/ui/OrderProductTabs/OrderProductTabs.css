@@ -1,0 +1,29 @@
+.order-page__order-product-card__tabs-list {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.order-page__order-product-card__tab:not(:last-child) {
+    margin-right: 8px;
+}
+
+.order-page__order-product-card__tab__btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgb(51, 51, 51);
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+}
+
+.order-page__order-product-card__tab__btn.active {
+    color: rgb(255, 255, 255);
+    background: rgb(136, 170, 77);
+}
+
+.order-page__order-product-card__tab__btn:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(136, 170, 77);
+}
