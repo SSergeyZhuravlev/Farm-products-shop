@@ -1,7 +1,9 @@
 .order-products {
     overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+}
+
+.order-products::-webkit-scrollbar {
+    width: 0;
 }
 
 .order-products__list__item {
