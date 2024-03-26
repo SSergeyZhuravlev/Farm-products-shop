@@ -1,4 +1,4 @@
-import { BuyButton } from '/src/components/ui/BuyButton/BuyButton';
+import { Link } from 'react-router-dom';
 import { FarmProfitCard } from '/src/components/ui/FarmProfitCard/FarmProfitCard';
 import { Title } from '/src/components/ui/Title/Title';
 import './FarmProfitList.css';
@@ -16,7 +16,7 @@ export const FarmProfitList = ( { list } ) => {
                     })
                 }
             </ul>
-            <BuyButton>Купить</BuyButton>
+            <Link to='/order-page' className='btn buy-btn'>Купить</Link>
         </section>
     )
 }
